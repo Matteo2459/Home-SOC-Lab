@@ -27,7 +27,7 @@ Il sistema ha risposto nel modo seguente:
 pfSense ha registrato il fallimento e ha spedito il log a Wazuh. Il SIEM ha intercettato l'evento associandolo alla regola ID 2501 (syslog: User authentication failure). 
 
 
-
+<img width="1905" height="1010" alt="Screenshot 2026-06-06 184457" src="https://github.com/user-attachments/assets/6c14c4ca-9fd9-4c30-a50d-ed098b0c3996" />
 <br>
 <br>
 
@@ -37,4 +37,5 @@ Per testare la componente IDS, ho monitorato il traffico di rete standard eviden
 Il sistema ha risposto nel modo seguente:
 Wazuh ha raccolto gli allarmi generati da Suricata . L'indicizzazione di questi eventi permette  correlare i picchi di traffico anomalo con potenziali attività di scansione o ricognizione (Port Scanning) da parte di malintenzionati esterni.
 <br>
+<img width="1813" height="984" alt="Screenshot 2026-06-06 191606" src="https://github.com/user-attachments/assets/64222980-5cab-43fe-a156-3e5875274c7e" />
 
